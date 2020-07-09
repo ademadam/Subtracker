@@ -7,8 +7,10 @@ Is automating python script that help to keep traking new added/discovered subdo
 1. brute force domains of single one using other tools (sublister)
 2. Put the first results in `1.txt`
 3. Now it will re-do the above steps but add the ruslts into `2.txt`
-4. Now it will compare the domains that are included in `2.txt` and not existed in`1.txt` (new subdomains)
-5. Noww it will make a post request with the found domain to your host (the 2nd argument given)
+4. Compare the domains that are included in `2.txt` and not existed in`1.txt` (new subdomains)
+5. Make a post request with the found domain to your host (the 2nd argument given)
+6. Now it will re-do the steps from 3 to 4
+7. Whenever it find a new domain it will re-do the 5th step ... and so on
 
 
 ## How to use
