@@ -23,3 +23,4 @@ python subtracker target.com logger.com
 Right now i've added the core , i'm developing it to :
 1. Make the brute for each 5 minutes , (now it will re-do the brute forcing whenever you execute it)
 2. Make it post domain name/ip/time found & Make a Well and Better UX that will receive the domain name/ip/time found at
+3. Add more tools (amass, findomain specially)
